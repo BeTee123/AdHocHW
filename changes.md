@@ -1,8 +1,8 @@
 // Your recommended changes go here
 
-#Ad Hoc Homework: Accessibility
+# Ad Hoc Homework: Accessibility
 
-##List of some recommendations for improvements to the provider search section in healthcare.gov/see-plans/
+## List of some recommendations for improvements to the provider search section in healthcare.gov/see-plans/
 
 ### Visual to the UI (CSS, visual elements)
 
@@ -14,7 +14,7 @@ Using macOS VoiceOver+Safari, on the “View health & dental plans” page where
  The element that is not visible should not be focused or announced as “Not Covered”, since it would cause confusion for the screen reader user. This section lists “Medical Providers In-network” and when it announces “Not Covered”, it is conflicting information provided for the user. This can be especially confusing if users are not able to see the screen while the focus is on an empty element.
 
 HTML:
-\*<li class="pet-c-status-list__item ds-u-font-size--small pet-u-overflow-wrap--break-word pet-c-status-list__item--no"><span 
+// <li class="pet-c-status-list__item ds-u-font-size--small pet-u-overflow-wrap--break-word pet-c-status-list__item--no"><span 
 class="ds-u-visibility--screen-reader">Not Covered</span><span class="ds-u-text-transform--capitalize">dr. kimberly y smith  
 m.d.</span> </li>\*
 
